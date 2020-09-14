@@ -8,9 +8,8 @@ const assertEqual = function(actual, expected) {
 };
 
 // HEAD FUNCTION
-
 const head = function(array) {
-  return array.shift();
+  return array.shift(); // method that returns the first element of an array
 }
 
 // TEST CODE
