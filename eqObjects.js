@@ -17,9 +17,9 @@ const eqArrays = function(array1, array2) {
 // Otherwise you get back a big fat false!
 const eqObjects = function(object1, object2) {
   //first, verify if I have the same number of elements...
-  if(Object.keys(object1).length === Object.keys(object2).length) {
+  if (Object.keys(object1).length === Object.keys(object2).length) {
     for (let key in object1) {
-      if (Array.isArray(object1[key]) && Array.isArray(object2[key])){
+      if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
         if (!eqArrays(object1[key], object2[key])) {
           return false;
         }
