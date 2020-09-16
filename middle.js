@@ -29,11 +29,11 @@ const middle = function(array) {
   // if the length of the array is bigger than 3 elements AND it is an odd number...
   if (array.length >= 3 && array.length % 2 !== 0) {
     // the array 'output' will receive the middle element
-    console.log("odd" + output.push(array[(array.length - 1) / 2]));
+    output.push(array[(array.length - 1) / 2]);
     // if the length of the array is bigger than 3 elements...
   } else if (array.length >= 3) {
     // the array 'output' will receive the middle two elements
-    console.log("even" + output.push(array[array.length / 2 - 1], array[array.length / 2]));
+    output.push(array[array.length / 2 - 1], array[array.length / 2]);
   }
   return output;
 };
