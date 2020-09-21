@@ -12,7 +12,6 @@ Take a look at the expected input and output below to get a better understanding
 const takeUntil = function(array, callback) {
   let output = [];
   for (let index of array) {
-    console.log(index, callback(index));
     if (!callback(index)) {
       output.push(index);
     } else {
