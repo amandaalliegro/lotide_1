@@ -8,3 +8,5 @@ const pigLatin = function(str) {
   return str.join(' ');
 }
 console.log(pigLatin('Pig latin is cool'));
+
+module.exports = pigLatin;

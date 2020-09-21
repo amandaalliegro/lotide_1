@@ -15,3 +15,5 @@ const reverse = function(str) {
 };
 
 console.log(reverse("Hello!"))
+
+module.exports = reverse;

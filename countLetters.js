@@ -22,3 +22,5 @@ const countLetters = function(sentence) {
 
 console.log(countLetters("LHL"));
 console.log(countLetters("blueberry muffins for me, blueberry muffins for you, blueberry muffins for everybody!"));
+
+module.exports = countLetters;
